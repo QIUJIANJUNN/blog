@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Thinking about thinking">
+    <meta name="keyword" content>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        008 | 史上最容易理解公鑰私鑰說明「Almost」 - undefined
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> Maybe most ideas  are wrong </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar ">
+            <img src="/" />
+        </div>
+        <div class="name">
+            <i>Xiao Ji</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li >
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li >
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li >
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li >
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#第8期購買數據"><span class="toc-text">第8期購買數據</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#全部購買數據及損益狀況"><span class="toc-text">全部購買數據及損益狀況</span></a></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input"/>
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+
+        <div class="index-about-mobile">
+            <i> Maybe most ideas  are wrong </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        008 | 史上最容易理解公鑰私鑰說明「Almost」
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-06-13 19:19:06</span></span>
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p><img src="https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/008-p0.png?alt=media&token=9bba56b3-d210-42fb-8e0d-ed18db9bb375" alt></p>
+<p>在交易虛擬貨幣的時候常常會看到「公鑰」「私鑰」，完全理解這個是非常重要的，因為唯有徹底的理解才能保障你的虛擬貨幣。</p>
+<p>為了更容易理解，先來思考一個問題：<br>如果你想寄3克拉戒指給女朋友，但直接寄有被偷走的風險。你想了又想終於想到一個好主意。</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/008-p1.png?alt=media&token=407bfc3d-c44b-47f1-902a-a739d8b94dc9" alt></p>
+<ol>
+<li>你先買一個小豬存錢筒和掛鎖和鑰匙，先將戒指放到小豬存錢筒後鎖上，寄給你的女朋友。</li>
+<li>你打電話叫女朋友先去買一個掛鎖和鑰匙，以及如果收到小豬存錢筒的話把買的掛鎖鎖上去後寄還給你。</li>
+<li>你收到後把原來你鎖上的掛鎖解開後再寄給女朋友。</li>
+<li>女朋友收到小豬存錢筒，成功解開並取得了3克拉戒指。於是從此以後（女朋友）過著幸福快樂的日子。</li>
+</ol>
+<p>接下來我們把這個概念套用在虛擬貨幣裡面的公鑰與私鑰。</p>
+<p>如果你想轉Token給你的女朋友，那要如何做呢？</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/008-p2.png?alt=media&token=c75f0816-89b0-4f51-a8e9-d8b6c325dc99" alt></p>
+<ol>
+<li>女朋友告訴你「她的公開但被掛鎖鎖上的透明小豬」，你把你「公開但被掛鎖鎖上的透明小豬」用唯一的鑰匙打開。</li>
+<li>把Token投入到女朋友給你「她的公開但被掛鎖鎖上的透明小豬」後，讓礦工打包到區塊鏈上。</li>
+<li>女朋友上網查詢「她的公開但被掛鎖鎖上的透明小豬」是否有新增Token，如果有就可以拿去吃下午茶啦。於是從此以後（女朋友）過著幸福快樂的日子。</li>
+</ol>
+<p>由此得知</p>
+<p>公開鑰匙=公開但被掛鎖鎖上的透明小豬。</p>
+<p>私人鑰匙=唯一能夠解開公開但被掛鎖鎖上的透明小豬的鑰匙。</p>
+<p>在轉賬過程中這兩個都是不可或缺的，如果轉錯小豬是不可能退回的。</p>
+<p>私人鑰匙丟失或洩露都是自己的責任。</p>
+<hr>
+<p>好的，接下來是本週三的購買數據，以及這周我們是賺了還是虧了（笑）。</p>
+<h3 id="第8期購買數據"><a href="#第8期購買數據" class="headerlink" title="第8期購買數據"></a>第8期購買數據</h3><p><img src="https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE008.png?alt=media&token=62b1aaf9-66e8-4ab1-8b8d-46b22c21ee25" alt></p>
+<h3 id="全部購買數據及損益狀況"><a href="#全部購買數據及損益狀況" class="headerlink" title="全部購買數據及損益狀況"></a>全部購買數據及損益狀況</h3><p><img src="https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B5008.png?alt=media&token=25c96c55-5c87-49fc-93f4-c475432448c2" alt></p>
+<p>-21.08?</p>
+<p>貪婪的時刻到了，不加碼嗎？？？</p>
+<p>下周價格如果低於第7周價格的話，用2倍資金購買。</p>
+<p>下周價格如果低於第8周價格的話，用4倍資金購買。</p>
+
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+</html>
