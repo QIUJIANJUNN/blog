@@ -1,645 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head><meta name="generator" content="Hexo 3.9.0">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Thinking about thinking">
-    <meta name="keyword" content>
-    <link rel="shortcut icon" href="/blog/img/favicon.ico">
+  <meta charset="utf-8">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <title>
-        
-        
-        
-    </title>
+ga('create', 'UA-145089708-1', 'auto');
+ga('send', 'pageview');
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../../../css/aircloud.css">
-    <link rel="stylesheet" href="../../../css/gitment.css">
-    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
-    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
-</head>
-
-<body>
-
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
-</div>
-
-<div class="index-about">
-    <i> Maybe most ideas  are wrong </i>
-</div>
-
-<div class="index-container">
-    
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="avatar-name">
-        <div class="avatar ">
-            <img src="/blog/" />
-        </div>
-        <div class="name">
-            <i>Xiao Ji</i>
-        </div>
-    </div>
-    <div class="contents" id="nav-content">
-        <ul>
-            <li >
-                <a href="../../../index.html">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>主页</span>
-                </a>
-            </li>
-            <li >
-                <a href="../../../tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>标签</span>
-                </a>
-            </li>
-            <li  class=active >
-                <a href="../..">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>存档</span>
-                </a>
-            </li>
-            <li >
-                <a href="/blog/about/">
-                    <i class="iconfont icon-guanyu2"></i>
-                    <span>关于</span>
-                </a>
-            </li>
-            
-            <li>
-                <a id="search">
-                    <i class="iconfont icon-sousuo1"></i>
-                    <span>搜索</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
-    
-</div>
-
-
-<div class="search-field" id="search-field">
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input"/>
-            <span id="begin-search">搜索</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-
-        <div class="index-about-mobile">
-            <i> Maybe most ideas  are wrong </i>
-        </div>
-    </div>
-    
-    <div class="index-middle">
-        <!-- Main Content -->
-        
-
-
-<!-- 归档列表 -->
-
-<div class="archives-container">
-
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
-                    <span class="tag-text">2018</span>
-                </span>
-    <ul>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>11-21</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/11/21/buy-the-fucking-dip/">
-                        <span>
-                            031 | 這周BTC跌倒4100，你抄底了嗎？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>11-14</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/11/14/The-token-of-the-blockchain-is-stock-or-currency/">
-                        <span>
-                            030 |區塊鏈上的Token是股票還是貨幣？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>11-07</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/11/07/Why-should-be-learn-Dapp/">
-                        <span>
-                            029 | 為什麼要學Dapp
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>10-31</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/10/31/How-to-having-assets-that-earn-while-you-sleep-in-Bitfinex/">
-                        <span>
-                            028 | 在Bitfinex交易所躺著賺
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>10-24</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/10/24/Register-Account-in-Binance/">
-                        <span>
-                            027 | 幣安交易所註冊&amp;充值教學
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>10-17</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/10/17/Is-blockchain-company-in-the-bubble/">
-                        <span>
-                            026 | 區塊鏈的企業是泡沫嗎
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>10-10</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/10/10/Is-EOS-fake-blockchain-project/">
-                        <span>
-                            025 | EOS是偽區塊鏈項目嗎
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>10-03</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/10/03/Why-should-buy-Bitcoin/">
-                        <span>
-                            024 | 為什麼要買比特幣
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-26</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/09/26/Create-crypto-currency-in-5-minutes/">
-                        <span>
-                            023 | 只要5分鐘，你就可以創建虛擬貨幣
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-19</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/09/19/Who-are-the-stakeholder/">
-                        <span>
-                            022 | 大多數的散戶都不知道利害相關者是誰
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-12</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/09/12/Why-are-most-Tokens-below-the-initial-selling-price/">
-                        <span>
-                            021 | 為什麼大多數Token都破了發行價格
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-05</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/09/05/What-is-the-market-value-of-Bitcoin/">
-                        <span>
-                            020 | 比特幣值這麼多錢嗎？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>08-29</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/08/29/What-is-the-smart-contract/">
-                        <span>
-                            019 | 什麼是智能合約
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>08-22</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/08/22/Why-pay-attention-to-the-blockchain/">
-                        <span>
-                            018 | 為什麼要關注區塊鏈
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>08-15</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/08/15/Why-is-the-crypto-cat-without-value/">
-                        <span>
-                            017 | 為什麼最近XX貓、XX狗變得沒價值
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>08-08</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/08/08/Do-we-need-the-stable-currency/">
-                        <span>
-                            016 | 穩定幣，真的需要存在嗎？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>08-01</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/08/01/11-Why-is-the-mining-machine-so-expensive/">
-                        <span>
-                            015 | 聽說挖礦能賺錢，但礦機為什麼這麼貴？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>07-25</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/07/25/Fomo3d/">
-                        <span>
-                            014 | Fomo3D-基於ETH的資⾦盤遊戲
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>07-24</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/07/24/What-is-Buddhist-style/">
-                        <span>
-                            3013 | 你真的瞭解什麼是「佛系持幣」嗎？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>07-14</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/07/14/What-is-the-most-important-Proof/">
-                        <span>
-                            012 | 你知道在區塊鏈領域，最重要的共識機制是什麼嗎？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>07-04</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/07/04/Circulation-creates-wealth/">
-                        <span>
-                            011 | 流通創造財富
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>06-27</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/06/27/Is-Fcoin-a-philanthropist/">
-                        <span>
-                            010 | FCoin交易所是慈善家？交易手續費100%回饋！平台收入100%分配！
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>06-20</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/06/20/How-safe-is-your-crypto-currency-in-the-exchange/">
-                        <span>
-                            009 | 將虛擬貨幣存在交易所安全嗎?
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>06-13</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/06/13/public-key-and-private-key/">
-                        <span>
-                            008 | 史上最容易理解公鑰私鑰說明「Almost」
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>06-06</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/06/06/Is-the-purchase-of-crypto-currency-speculation-or-an-investment/">
-                        <span>
-                            007 | 買虛擬幣是算投資還是算投機?
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-30</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/05/30/how-to-find-the-1000-times-wealth/">
-                        <span>
-                            006 | 千倍幣大秘寶在哪?
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-23</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/05/23/who-is-the-best/">
-                        <span>
-                            005 | 在幣圈的路上誰是最牛逼的分析師？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-16</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/05/16/why-did-prices-continue-to-rise-you-shouldnt-be-happy/">
-                        <span>
-                            004 | 為什麼幣價持續上漲不應該開心？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-09</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/05/09/How-often-do-you-check-BTC-price/">
-                        <span>
-                            003 | 你通常多久看一次幣價？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-02</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/05/02/Have-you-sold-in-this-week/">
-                        <span>
-                            002 | 你這週恐慌賣出了嗎？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>04-25</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/blog/2018/04/25/How-do-I-find-clues/">
-                        <span>
-                            001 | 從新聞找線索？還是分析K線？還是分析歷史交易記錄？
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-
-    </ul>
-</div>
-
-</div>
-
-    </div>
-</div>
-
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    <p>
-        <span id="busuanzi_container_site_pv">
-            <span id="busuanzi_value_site_pv"></span>PV
-        </span>
-        <span id="busuanzi_container_site_uv">
-            <span id="busuanzi_value_site_uv"></span>UV
-        </span>
-        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
-</footer>
-
-
-
-
-</body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = "search.json"
-    window.hexo_root = "/blog/"
-    window.isPost = false
 </script>
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-<script src="../../../js/index.js"></script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- End Google Analytics -->
+
+
+  
+  <title>Archives: 2018/4 | XiaoJi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Thinking about thinking">
+<meta name="keywords" content="altcoin, Bitcion, BTC, Ethereum, ETH, EOS,">
+<meta property="og:type" content="website">
+<meta property="og:title" content="XiaoJi">
+<meta property="og:url" content="http://yoursite.com/archives/2018/04/index.html">
+<meta property="og:site_name" content="XiaoJi">
+<meta property="og:description" content="Thinking about thinking">
+<meta property="og:locale" content="zh">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="XiaoJi">
+<meta name="twitter:description" content="Thinking about thinking">
+  
+    <link rel="alternate" href="../../../atom.xml" title="XiaoJi" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="../../../css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="../../../index.html" id="logo">XiaoJi</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="../../../index.html" id="subtitle">Maybe most ideas  are wrong</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="../../../index.html">Home</a>
+        
+          <a class="main-nav-link" href="../../../archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="../../../atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href=".." class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="../../../2018/04/25/How-do-I-find-clues/" class="archive-article-date">
+  <time datetime="2018-04-25T08:00:00.000Z" itemprop="datePublished">Apr 25</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="../../../2018/04/25/How-do-I-find-clues/">001 | 從新聞找線索？還是分析K線？還是分析歷史交易記錄？</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+  
+  
+    </div></section>
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../11/">November 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="../10/">October 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="../09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="../08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="../07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="../06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="../05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="">April 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="../../../2018/11/21/buy-the-fucking-dip/">031 | 這周BTC跌倒4100，你抄底了嗎？</a>
+          </li>
+        
+          <li>
+            <a href="../../../2018/11/14/The-token-of-the-blockchain-is-stock-or-currency/">030 |區塊鏈上的Token是股票還是貨幣？</a>
+          </li>
+        
+          <li>
+            <a href="../../../2018/11/07/Why-should-be-learn-Dapp/">029 | 為什麼要學Dapp</a>
+          </li>
+        
+          <li>
+            <a href="../../../2018/10/31/How-to-having-assets-that-earn-while-you-sleep-in-Bitfinex/">028 | 在Bitfinex交易所躺著賺</a>
+          </li>
+        
+          <li>
+            <a href="../../../2018/10/24/Register-Account-in-Binance/">027 | 幣安交易所註冊&amp;充值教學</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Xiao Ji<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="../../../index.html" class="mobile-nav-link">Home</a>
+  
+    <a href="../../../archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="../../../fancybox/jquery.fancybox.css">
+  <script src="../../../fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="../../../js/script.js"></script>
 
 
 
-
+  </div>
+</body>
 </html>
