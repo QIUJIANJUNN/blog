@@ -2,6 +2,7 @@
 title: 015 | 聽說挖礦能賺錢，但礦機為什麼這麼貴？
 date: 2018-08-01 15:55:52
 tags:
+ - 後真相
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/015-miner.gif?alt=media&token=915830a2-f854-475e-b6db-e8c72517964c)
 

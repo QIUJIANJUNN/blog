@@ -2,6 +2,7 @@
 title: 009 | 將虛擬貨幣存在交易所安全嗎?
 date: 2018-06-20 19:19:17
 tags:
+ - 風險
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/009-p0.png?alt=media&token=c3769c5b-caf8-4587-bafe-c09e89c0d471)
 

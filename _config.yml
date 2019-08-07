@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: XiaoJi
-subtitle: Maybe most ideas  are wrong
+title: 小吉
+subtitle: 每週50在幣圈
 description: Thinking about thinking
 keywords: altcoin, Bitcion, BTC, Ethereum, ETH, EOS,
 author: Xiao Ji
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-aircloud
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

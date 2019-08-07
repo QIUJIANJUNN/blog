@@ -2,6 +2,8 @@
 title: 005 | 在幣圈的路上誰是最牛逼的分析師？
 date: 2018-05-23 19:18:56
 tags:
+ - 完美主義
+ - 貪婪的威力
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/005-p0.png?alt=media&token=3d7bfc5f-d878-4a1a-93c4-89113a8cf8ad)
 

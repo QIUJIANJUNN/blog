@@ -2,6 +2,7 @@
 title: 006 | 千倍幣大秘寶在哪?
 date: 2018-05-30 19:19:00
 tags:
+ - 貪婪的威力
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/006-p0.png?alt=media&token=c072d147-4b03-4978-a680-8448ebe31a97)
 

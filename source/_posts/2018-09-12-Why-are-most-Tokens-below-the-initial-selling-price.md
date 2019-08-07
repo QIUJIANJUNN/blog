@@ -2,6 +2,7 @@
 title: 021 | 為什麼大多數Token都破了發行價格
 date: 2018-09-12 17:43:27
 tags:
+ - 貪婪的威力
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/21.gif?alt=media&token=2b80fcf7-6810-41c4-8a48-e8a572bbd72c)
 

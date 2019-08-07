@@ -2,6 +2,7 @@
 title: 003 | 你通常多久看一次幣價？
 date: 2018-05-09 17:22:27
 tags:
+ - 損失厭惡
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/003-p0.png?alt=media&token=b78f6b6f-db7c-44a9-af66-39ce20701511)
 

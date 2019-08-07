@@ -2,6 +2,7 @@
 title: 023 | 只要5分鐘，你就可以創建虛擬貨幣
 date: 2018-09-26 17:43:32
 tags:
+ - 教學
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/23.001.png?alt=media&token=b9b5fba9-8443-4688-a720-4689f572ef59)
 

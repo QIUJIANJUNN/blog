@@ -2,6 +2,7 @@
 title: 029 | 為什麼要學Dapp
 date: 2018-11-07 17:55:59
 tags:
+ - Dapp
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/29.gif?alt=media&token=a2ea88b8-5784-4b51-8aa1-03cad71002c4)
 
