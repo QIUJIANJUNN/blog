@@ -7,6 +7,7 @@ tags:
  - 躺著賺
  - 被動收入
  - 交易所註冊
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/64.gif?alt=media&token=3f9b3515-0297-442b-8171-7116fd35b506)
 
@@ -79,3 +80,7 @@ tags:
 
 ### 全部購買數據及損益狀況
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B5064.png?alt=media&token=484d42f5-d7a1-471b-b4eb-88c3e114c2d4)
+
+![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B50031-060.png?alt=media&token=57f6125d-2f30-4ee2-a09b-50b9d3629184)
+
+![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B5001-030.png?alt=media&token=ef3327f5-cbca-480b-a2f2-b1df9014f42c)

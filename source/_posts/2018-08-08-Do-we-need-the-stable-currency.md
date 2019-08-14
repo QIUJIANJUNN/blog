@@ -3,6 +3,7 @@ title: 016 | 穩定幣，真的需要存在嗎？
 date: 2018-08-08 15:55:55
 tags:
  - 穩定幣
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/16-Stablecoin.gif?alt=media&token=408b0f61-5335-495d-8c6b-6e04d33dd670
 )

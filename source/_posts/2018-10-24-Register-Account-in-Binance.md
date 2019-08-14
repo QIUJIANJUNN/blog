@@ -4,6 +4,7 @@ date: 2018-10-24 17:43:42
 tags:
  - Binance
  - 交易所註冊
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/027-p0.png?alt=media&token=b9c8eb76-f5d8-4b77-8ff2-78d57403f798)
 *由於每周50usd定投虛擬貨幣，所以選擇一家靠譜的交易所非常重要。今天就來介紹目前正在使用的交易所「幣安」。*

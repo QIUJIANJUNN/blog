@@ -3,6 +3,7 @@ title: 004 | 為什麼幣價持續上漲不應該開心？
 date: 2018-05-16 19:06:45
 tags:
  - 損失厭惡
+ - 所有文章
 ---
 
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/004-p0.png?alt=media&token=9259ae01-12be-4ec1-9d3f-85a2b0fc8bae)

@@ -3,6 +3,7 @@ title: 002 | 你這週恐慌賣出了嗎？
 date: 2018-05-02 17:00:36
 tags:
  - 損失厭惡
+ - 所有文章
 ---
 
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/002-p0.png?alt=media&token=ddee2976-c22f-4494-abe8-aa4c38b2baef)

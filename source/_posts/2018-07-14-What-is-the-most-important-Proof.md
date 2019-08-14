@@ -3,6 +3,7 @@ title: 012 | 你知道在區塊鏈領域，最重要的共識機制是什麼嗎�
 date: 2018-07-14 15:17:18
 tags:
  - 貪婪的威力
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/012-p0.png?alt=media&token=22ced20d-cd5a-4534-b2f7-97545248fe0c)
 

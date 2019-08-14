@@ -3,6 +3,7 @@ title: 067 | 定投的痛點、規則的適用性、跨境的政治
 date: 2019-07-31 15:02:01
 tags:
  - 定投的痛點
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/067-p0.jpeg?alt=media&token=6976b9a0-6518-49c7-b81d-ab4b1a52a4b9)
 ### 1. **定投策略容易放棄的痛點在於，人都是處於“想要進步的狀態”。**
@@ -27,3 +28,6 @@ tags:
 
 ### 全部購買數據及損益狀況
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B5067.png?alt=media&token=974a1d4e-060c-445c-af94-07fed2aa147d)
+![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B50031-060.png?alt=media&token=57f6125d-2f30-4ee2-a09b-50b9d3629184)
+
+![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/%E5%85%A8%E9%83%A8%E8%B4%AD%E4%B9%B0%E6%95%B0%E6%8D%AE%E5%8F%8A%E6%8D%9F%E7%9B%8A%E7%8A%B6%E5%86%B5001-030.png?alt=media&token=ef3327f5-cbca-480b-a2f2-b1df9014f42c)
