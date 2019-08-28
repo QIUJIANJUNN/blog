@@ -2,6 +2,7 @@
 title: 024 | 為什麼要買比特幣
 date: 2018-10-03 17:43:34
 tags:
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/24.gif?alt=media&token=ebcfb4a4-c200-4fb5-896c-7dd357ae3a9e)
 *導語：雖然理解比特幣的運作機制與原理看似剛需，但你其實更應該瞭解為什麼人們有購買比特幣的需求。*

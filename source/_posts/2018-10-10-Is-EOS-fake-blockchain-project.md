@@ -2,6 +2,8 @@
 title: 025 | EOS是偽區塊鏈項目嗎
 date: 2018-10-10 17:43:36
 tags:
+  - 所有文章
+  - EOS
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/25.gif?alt=media&token=b5a5aa7c-3b6c-4884-8546-c6065d7b63b0)
 *以太坊的出現使人們意識到不只有比特幣這種點對點的交易能夠去中心化，連合約都可以去中心化。隨著開發者的加入，人們意識到當前以太坊使用的共識機制Pow，每秒大約能夠傳送6筆交易，但這樣的效能是無法足大規模同時傳送的需求。*

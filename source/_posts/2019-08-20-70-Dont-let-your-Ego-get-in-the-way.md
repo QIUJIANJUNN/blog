@@ -4,6 +4,7 @@ tags:
   - 所有文章
   - 自我
   - 博弈
+  - 心理勵志
 date: 2019-08-21 09:42:27
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/070-p0.jpg?alt=media&token=f99b7752-757c-4d57-9d4a-484837eca1be)

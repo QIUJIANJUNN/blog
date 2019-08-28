@@ -2,6 +2,7 @@
 title: 018 | 為什麼要關注區塊鏈 
 date: 2018-08-22 15:56:01
 tags:
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/18.gif?alt=media&token=fe4baa00-7907-4159-9604-38506460401f)
 

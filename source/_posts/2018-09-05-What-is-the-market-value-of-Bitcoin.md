@@ -2,6 +2,7 @@
 title: 020 | 比特幣值這麼多錢嗎？ 
 date: 2018-09-05 17:43:25
 tags:
+ - 所有文章
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/20.gif?alt=media&token=ce0e07c5-623d-4fb4-9d6d-1644f221ddae)
 

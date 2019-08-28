@@ -8,6 +8,7 @@ tags:
  - 被動收入
  - 交易所註冊
  - 所有文章
+ - 教學
 ---
 ![](https://firebasestorage.googleapis.com/v0/b/blog-1f60b.appspot.com/o/64.gif?alt=media&token=3f9b3515-0297-442b-8171-7116fd35b506)
 
